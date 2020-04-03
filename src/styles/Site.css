@@ -1,0 +1,30 @@
+.site {
+  color: #9c9c9c;
+}
+
+.header {
+  padding-top: 30px;
+  font-family: "Mansalva", cursive;
+  font-size: 3em;
+}
+
+hr {
+  border: 0.7px solid #c5c5c5;
+}
+
+section {
+  padding-top: 30px;
+}
+
+@media (min-width: 767px) {
+  .site {
+    width: 80vw;
+    max-width: 1200px;
+    min-width: 750px;
+    margin: 0px auto 0px auto;
+  }
+
+  .header {
+    padding-top: 50px;
+  }
+}

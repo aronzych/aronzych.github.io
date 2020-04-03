@@ -1,0 +1,24 @@
+.gallery {
+  margin: 0px auto 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery__img img {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 767px) {
+  .gallery {
+    align-items: center;
+    align-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .gallery__img {
+    flex-basis: 33%;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,56 @@
+@keyframes Fade {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes Dotted {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.welcome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  animation: Fade 1.3s ease;
+  animation-delay: 1.3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.welcome__text {
+  font-family: "Mansalva", cursive;
+  font-size: 6em;
+  color: rgba(0, 0, 0, 0.6);
+  z-index: 9999;
+}
+
+.welcome__dot {
+  opacity: 0;
+  animation: Dotted 0.5s ease;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.welcome__dot--1 {
+  animation-delay: 0.3s;
+}
+
+.welcome__dot--2 {
+  animation-delay: 0.8s;
+}

@@ -1,0 +1,149 @@
+@keyframes Background {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.main {
+  position: absolute;
+  transform-origin: bottom;
+  width: 100%;
+  height: 100vh;
+  min-height: 550px;
+  min-width: 230px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/main.jpg");
+  transition: 0.3s;
+  overflow: hidden;
+}
+
+.main::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  min-height: 550px;
+  background: linear-gradient(
+    253deg,
+    rgba(0, 0, 0, 0.4),
+    rgba(255, 255, 255, 0.4),
+    rgba(0, 0, 0, 0.4)
+  );
+  background-size: 200% 200%;
+  animation: Background 15s ease infinite;
+}
+
+.main__contact {
+  position: absolute;
+  z-index: 1;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 1.3em;
+}
+
+.main__name {
+  font-family: "Mansalva", cursive;
+  font-size: 4em;
+  color: #fff;
+  position: absolute;
+  z-index: 1;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main__about {
+  font-size: 1em;
+  color: #fff;
+  position: absolute;
+  z-index: 1;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main__menu {
+  position: absolute;
+  z-index: 1;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main__button {
+  margin: 3px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  height: 50px;
+  width: 130px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+  letter-spacing: 3px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.main__button:hover {
+  background-color: #fff;
+  color: #000000;
+}
+
+.main__social {
+  position: absolute;
+  z-index: 1;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main__icon {
+  padding: 10px;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  color: white;
+}
+
+.main__icon:hover {
+  opacity: 0.7;
+  color: white;
+}
+
+.main__icon--facebook {
+  background: #125688;
+}
+
+.main__icon--instagram {
+  background: #dd0045;
+}
+
+.main__icon--github {
+  background: #555555;
+}
+
+@media (min-width: 767px) {
+  .main__name {
+    font-size: 5em;
+  }
+
+  .main__about {
+    font-size: 1.5em;
+    top: 60%;
+  }
+}
