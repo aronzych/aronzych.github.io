@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import "../styles/Main.css";
 import Welcome from "../layouts/Welcome";
 
-const Main = props => {
+const Main = (props) => {
   props.load();
 
   return (
