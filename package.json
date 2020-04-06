@@ -2,7 +2,7 @@
   "name": "aronzych",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aronzych.github.io/",
+  "homepage": "https://aronzych.github.io/portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

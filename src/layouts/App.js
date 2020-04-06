@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import Main from "../layouts/Main";
 import Site from "../layouts/Site";
 import "../styles/App.css";
@@ -14,7 +14,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router basename={process.env.process}>
+      <HashRouter basename="/">
         <Switch>
           <Route
             path="/"
@@ -23,7 +23,7 @@ class App extends React.Component {
           />
           <Route component={Site} />
         </Switch>
-      </Router>
+      </HashRouter>
     );
   }
 }

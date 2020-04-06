@@ -38,8 +38,8 @@ const Site = () => {
           )}
         />
       </div>
-      <div className="site__arrow">
-        <i onClick={handleClick} className="fas fa-arrow-circle-up"></i>
+      <div onClick={handleClick} className="site__arrow">
+        <i className="fas fa-long-arrow-alt-up"></i>
       </div>
     </>
   );

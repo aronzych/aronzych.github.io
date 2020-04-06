@@ -9,6 +9,7 @@
 }
 
 .site {
+  z-index: 10;
   animation: Show 1.3s ease;
   padding: 0 0 20px 0;
   animation-iteration-count: 1;
@@ -23,8 +24,15 @@
   position: fixed;
   right: 30px;
   bottom: 10px;
-  font-size: 3em;
+  font-size: 1.5em;
+  text-align: center;
   cursor: pointer;
+  border: solid 1px #9c9c9c;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background-color: rgba(255, 255, 255, 0.842);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .header {

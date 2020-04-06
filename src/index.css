@@ -6,6 +6,10 @@
   padding: 0px;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: "Nanum Gothic Coding", monospace;
 }
