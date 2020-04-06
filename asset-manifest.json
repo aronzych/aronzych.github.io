@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6b1c63bf.chunk.css",
+    "main.js": "/static/js/main.9ac2a454.chunk.js",
+    "main.js.map": "/static/js/main.9ac2a454.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a16986cb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a16986cb.js.map",
+    "static/js/2.3f63b5fe.chunk.js": "/static/js/2.3f63b5fe.chunk.js",
+    "static/js/2.3f63b5fe.chunk.js.map": "/static/js/2.3f63b5fe.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2458cb4ae01eda78c07e738226f4b8d6.js": "/precache-manifest.2458cb4ae01eda78c07e738226f4b8d6.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.6b1c63bf.chunk.css.map": "/static/css/main.6b1c63bf.chunk.css.map",
+    "static/js/2.3f63b5fe.chunk.js.LICENSE.txt": "/static/js/2.3f63b5fe.chunk.js.LICENSE.txt",
+    "static/media/1.jpg": "/static/media/1.eedea0c6.jpg",
+    "static/media/10.jpg": "/static/media/10.31bebf30.jpg",
+    "static/media/11.jpg": "/static/media/11.36141425.jpg",
+    "static/media/12.jpg": "/static/media/12.1012c23e.jpg",
+    "static/media/2.jpg": "/static/media/2.7ea5c2dc.jpg",
+    "static/media/3.jpg": "/static/media/3.c56d7388.jpg",
+    "static/media/4.jpg": "/static/media/4.10516680.jpg",
+    "static/media/5.jpg": "/static/media/5.c3b183c3.jpg",
+    "static/media/6.jpg": "/static/media/6.4b541d16.jpg",
+    "static/media/7.jpg": "/static/media/7.288ec775.jpg",
+    "static/media/8.jpg": "/static/media/8.dbbae561.jpg",
+    "static/media/9.jpg": "/static/media/9.d75b86b3.jpg",
+    "static/media/contact-picture.jpg": "/static/media/contact-picture.b12e99b1.jpg",
+    "static/media/hash.jpg": "/static/media/hash.dbbe8b1b.jpg",
+    "static/media/Main.css": "/static/media/main.41c9500c.jpg",
+    "static/media/my-picture.jpg": "/static/media/my-picture.6a8d19cc.jpg",
+    "static/media/portfolio.jpg": "/static/media/portfolio.c71723cd.jpg",
+    "static/media/todo.jpg": "/static/media/todo.9142c61c.jpg",
+    "static/media/weather.jpg": "/static/media/weather.8781c695.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a16986cb.js",
+    "static/js/2.3f63b5fe.chunk.js",
+    "static/css/main.6b1c63bf.chunk.css",
+    "static/js/main.9ac2a454.chunk.js"
+  ]
+}
