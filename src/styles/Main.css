@@ -54,6 +54,7 @@ body::after {
 
 .main {
   text-align: center;
+  color: #fff;
 }
 
 .main__contact {
@@ -62,14 +63,12 @@ body::after {
   top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #fff;
   font-size: 1.3em;
 }
 
 .main__name {
   font-family: "Mansalva", cursive;
   font-size: 4em;
-  color: #fff;
   position: absolute;
   z-index: 1;
   top: 28%;
@@ -79,7 +78,6 @@ body::after {
 
 .main__about {
   font-size: 1em;
-  color: #fff;
   position: absolute;
   z-index: 1;
   top: 55%;
@@ -130,7 +128,7 @@ body::after {
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
-  color: white;
+  color: #fff;
 }
 
 .main__icon:hover {
