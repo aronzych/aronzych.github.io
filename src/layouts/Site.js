@@ -25,7 +25,11 @@ const Site = () => {
         <Route
           render={({ location }) => (
             <TransitionGroup>
-              <CSSTransition key={location.key} classNames="fade" timeout={450}>
+              <CSSTransition
+                key={location.pathname}
+                classNames="fade"
+                timeout={450}
+              >
                 <Switch location={location}>
                   <Route path="/about" component={About} />
                   <Route path="/projects" component={Projects} />
