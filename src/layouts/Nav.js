@@ -4,18 +4,18 @@ import "../styles/Nav.css";
 
 const Nav = () => {
   return (
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__item">
+    <nav className="nav">
+      <ul className="nav__list">
+        <li className="nav__item">
           <NavLink to="/about">About</NavLink>
         </li>
-        <li class="nav__item">
+        <li className="nav__item">
           <NavLink to="/projects">Projects</NavLink>
         </li>
-        <li class="nav__item">
+        <li className="nav__item">
           <NavLink to="/gallery">Photo</NavLink>
         </li>
-        <li class="nav__item">
+        <li className="nav__item">
           <NavLink to="/contact">Contact</NavLink>
         </li>
       </ul>

@@ -9,26 +9,28 @@ const Main = (props) => {
   return (
     <>
       {props.firstLoad ? <Welcome /> : null}
-      <section class="main">
-        <div class="main__contact">aron.zych@yahoo.com</div>
-        <div class="main__name">Aron Zych</div>
-        <div class="main__about">Developer, filmmaker, traveler...</div>
-        <div class="main__menu">
+      <section className="main">
+        <div className="main__contact">aron.zych@yahoo.com</div>
+        <div className="main__name">Aron Zych</div>
+        <div className="main__about">Developer, filmmaker, traveler...</div>
+        <div className="main__menu">
           <NavLink to="/about">
-            <button class="main__button main__button--openAbout">About</button>
+            <button className="main__button main__button--openAbout">
+              About
+            </button>
           </NavLink>
           <NavLink to="/projects">
-            <button class="main__button main__button--openPortfolio">
+            <button className="main__button main__button--openPortfolio">
               Portfolio
             </button>
           </NavLink>
         </div>
-        <div class="main__social">
+        <div className="main__social">
           <a
             rel="noopener noreferrer"
             href="http://www.facebook.com/aron.zych"
             target="_blank"
-            class="main__icon main__icon--facebook fab fa-facebook-f"
+            className="main__icon main__icon--facebook fab fa-facebook-f"
           >
             {" "}
           </a>
@@ -36,7 +38,7 @@ const Main = (props) => {
             rel="noopener noreferrer"
             href="http://www.instagram.com/aronzych"
             target="_blank"
-            class="main__icon main__icon--instagram fab fa-instagram"
+            className="main__icon main__icon--instagram fab fa-instagram"
           >
             {" "}
           </a>
@@ -44,7 +46,7 @@ const Main = (props) => {
             rel="noopener noreferrer"
             href="https://github.com/aronzych"
             target="_blank"
-            class="main__icon main__icon--github fab fa-github"
+            className="main__icon main__icon--github fab fa-github"
           >
             {" "}
           </a>

@@ -14,7 +14,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router>
+      <Router basename={process.env.process}>
         <Switch>
           <Route
             path="/"

@@ -13,47 +13,44 @@ import img10 from "../images/10.jpg";
 import img11 from "../images/11.jpg";
 import img12 from "../images/12.jpg";
 
-const Gallery = () => {
-  return (
-    <section class="gallery">
-      <div class="gallery__img">
-        <img src={img1} alt="img" />
-      </div>
-      <div class="gallery__img">
-        <img src={img2} alt="img" />
-      </div>
-      <div class="gallery__img">
-        <img src={img3} alt="img" />
-      </div>
-      <div class="gallery__img">
-        <img src={img4} alt="img" />
-      </div>
-      <div class="gallery__img">
-        <img src={img5} alt="img" />
-      </div>
-      <div class="gallery__img">
-        <img src={img6} alt="img" />
-      </div>
-      <div class="gallery__img">
-        <img src={img7} alt="img" />
-      </div>
-      <div class="gallery__img">
-        <img src={img8} alt="img" />
-      </div>
-      <div class="gallery__img">
-        <img src={img9} alt="img" />
-      </div>
-      <div class="gallery__img">
-        <img src={img10} alt="img" />
-      </div>
-      <div class="gallery__img">
-        <img src={img11} alt="img" />
-      </div>
-      <div class="gallery__img">
-        <img src={img12} alt="img" />
-      </div>
-    </section>
-  );
-};
+const imgs = [
+  img1,
+  img2,
+  img3,
+  img4,
+  img5,
+  img6,
+  img7,
+  img8,
+  img9,
+  img10,
+  img11,
+  img12,
+];
 
+let delay = 0;
+
+const imgsList = imgs.map((img, id) => {
+  delay += 0.1;
+  return (
+    <div key={id} className="gallery__img">
+      <img
+        src={img}
+        alt="img-gallery"
+        style={{
+          animationName: "ShowPhoto",
+          animationDuration: "1.3s",
+          animationTimingFunction: "ease",
+          animationDelay: `${delay}s`,
+          animationIterationCount: 1,
+          animationFillMode: "forwards",
+        }}
+      />
+    </div>
+  );
+});
+
+const Gallery = () => {
+  return <section className="gallery">{imgsList}</section>;
+};
 export default Gallery;

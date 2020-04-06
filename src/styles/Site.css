@@ -1,9 +1,35 @@
+@keyframes Show {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
 .site {
+  animation: Show 1.3s ease;
+  padding: 0 0 20px 0;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
   color: #9c9c9c;
+  background-color: rgb(255, 255, 255);
+}
+
+.site__arrow {
+  color: rgba(0, 0, 0, 0.623);
+  display: block;
+  position: fixed;
+  right: 30px;
+  bottom: 10px;
+  font-size: 3em;
+  cursor: pointer;
 }
 
 .header {
-  padding-top: 30px;
+  text-align: center;
+  padding-top: 20px;
   font-family: "Mansalva", cursive;
   font-size: 3em;
 }
@@ -13,18 +39,28 @@ hr {
 }
 
 section {
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 @media (min-width: 767px) {
   .site {
+    box-shadow: 0px 0px 10px 4px rgba(110, 110, 110, 0.82);
+    padding: 0 20px 20px 20px;
     width: 80vw;
     max-width: 1200px;
     min-width: 750px;
-    margin: 0px auto 0px auto;
+    margin: 20px auto 20px auto;
+  }
+
+  .site__arrow {
+    display: none;
   }
 
   .header {
-    padding-top: 50px;
+    padding-top: 40px;
+  }
+
+  section {
+    padding-top: 30px;
   }
 }

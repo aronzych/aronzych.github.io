@@ -1,0 +1,38 @@
+.contact {
+  text-align: center;
+}
+
+.contact__header {
+  margin: 0px auto 0px auto;
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.contact__header img {
+  opacity: 0.9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.contact__email {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  cursor: pointer;
+  color: white;
+  margin: 20px auto 20px auto;
+  display: block;
+  line-height: 60px;
+  width: 300px;
+  background-color: rgb(223, 68, 68);
+}
+
+@media (min-width: 767px) {
+  .contact__header {
+    width: 80%;
+  }
+}

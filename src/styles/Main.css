@@ -10,7 +10,7 @@
   }
 }
 
-.main {
+/* .main {
   position: absolute;
   transform-origin: bottom;
   width: 100%;
@@ -20,14 +20,22 @@
   background-position: center;
   background-size: cover;
   background-image: url("../images/main.jpg");
+  background-attachment: fixed;
   transition: 0.3s;
   overflow: hidden;
+} */
+
+body {
+  background-image: url("../images/main.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.main::after {
+body::after {
   content: "";
-  position: absolute;
-  z-index: 0;
+  position: fixed;
+  z-index: -1;
   top: 0px;
   left: 0px;
   width: 100%;
@@ -41,6 +49,10 @@
   );
   background-size: 200% 200%;
   animation: Background 15s ease infinite;
+}
+
+.main {
+  text-align: center;
 }
 
 .main__contact {

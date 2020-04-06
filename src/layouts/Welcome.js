@@ -3,10 +3,10 @@ import "../styles/Welcome.css";
 
 const Welcome = () => {
   return (
-    <div class="welcome">
-      <p class="welcome__text">
-        Hello.<span class="welcome__dot welcome__dot--1">.</span>
-        <span class="welcome__dot welcome__dot--2">.</span>
+    <div className="welcome">
+      <p className="welcome__text">
+        Hello.<span className="welcome__dot welcome__dot--1">.</span>
+        <span className="welcome__dot welcome__dot--2">.</span>
       </p>
     </div>
   );
