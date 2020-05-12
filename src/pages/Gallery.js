@@ -1,5 +1,8 @@
 import React from "react";
 import "../styles/Gallery.css";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+
 import img1 from "../images/1.jpg";
 import img2 from "../images/2.jpg";
 import img3 from "../images/3.jpg";
@@ -34,18 +37,7 @@ const imgsList = imgs.map((img, id) => {
   delay += 0.1;
   return (
     <div key={id} className="gallery__img">
-      <img
-        src={img}
-        alt="img-gallery"
-        style={{
-          animationName: "ShowPhoto",
-          animationDuration: "1.3s",
-          animationTimingFunction: "ease",
-          animationDelay: `${delay}s`,
-          animationIterationCount: 1,
-          animationFillMode: "forwards",
-        }}
-      />
+      <LazyLoadImage alt="gallery-img" effect="blur" src={img} />
     </div>
   );
 });
