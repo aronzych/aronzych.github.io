@@ -62,6 +62,10 @@ const About = () => {
               PS, PR
               <i className="skills__icon skills__icon--small fab fa-adobe"></i>
             </div>
+            <div className="skills__skill">
+              Trello
+              <i className="skills__icon skills__icon--small fab fa-trello"></i>
+            </div>
           </div>
         </div>
       </div>

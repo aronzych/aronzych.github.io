@@ -44,10 +44,6 @@
   padding-bottom: 30px;
 }
 
-.skills__skill:hover {
-  color: black;
-}
-
 .skills__icon {
   padding-top: 10px;
   font-size: 3em;
