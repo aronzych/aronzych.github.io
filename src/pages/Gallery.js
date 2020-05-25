@@ -31,10 +31,7 @@ const imgs = [
   img12,
 ];
 
-let delay = 0;
-
 const imgsList = imgs.map((img, id) => {
-  delay += 0.1;
   return (
     <div key={id} className="gallery__img">
       <LazyLoadImage alt="gallery-img" effect="blur" src={img} />
