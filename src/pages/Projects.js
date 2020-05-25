@@ -5,6 +5,8 @@ import todo from "../images/todo.jpg";
 import hash from "../images/hash.jpg";
 import weather from "../images/weather.jpg";
 import portfolio from "../images/portfolio.jpg";
+import chinabar from "../images/chinabar.jpg";
+import flexbox from "../images/flexbox.jpg";
 
 const data = [
   {
@@ -40,6 +42,23 @@ const data = [
     website: "https://aronzych.github.io/my-old-portfolio/",
     github: "https://github.com/aronzych/my-old-portfolio",
     image: portfolio,
+  },
+  {
+    project: "HTML template",
+    stack: "HTML, CSS",
+    description: "HTML template based on PSD project. Responsive with flexbox.",
+    website: "https://aronzych.github.io/photography-portfolio/",
+    github: "https://github.com/aronzych/photography-portfolio",
+    image: flexbox,
+  },
+  {
+    project: "Wordpress",
+    stack: "Wordpress, Elementor",
+    description:
+      "Website for small restaurant. Based on Wordpress, designed in Elementor.",
+    website: "https://chinabarczarnkow.pl/",
+    github: "https://chinabarczarnkow.pl/",
+    image: chinabar,
   },
 ];
 

@@ -34,10 +34,10 @@ const About = () => {
               Node
               <i className="skills__icon fab fa-node-js"></i>
             </div> */}
-            <div className="skills__skill">
+            {/* <div className="skills__skill">
               SASS
               <i className="skills__icon fab fa-sass"></i>
-            </div>
+            </div> */}
             <div className="skills__skill">
               Git
               <i className="skills__icon fab fa-git"></i>
